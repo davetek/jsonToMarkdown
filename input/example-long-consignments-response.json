@@ -1,0 +1,80 @@
+{
+    "href": "https://integration1.api.manheim.com/consignments/mine?limit=2",
+    "items": [
+        {
+            "href": "https://integration1.api.manheim.com/consignments/id/ed43a13c-b03e-11e7-8d57-194ac982aaaa",
+            "unit": {
+                "href": "https://integration1.api.manheim.com/units/id/ec6dd57a-b03e-11e7-8424-4fb1f47faaaa"
+            },
+            "checkInDate": "2017-05-10",
+            "status": "CHECKED_IN",
+            "operatingLocation": {
+                "href": "https://integration1.api.manheim.com/locations/id/AAA"
+            },
+            "customerId": "1234567",
+            "manheimAccountNumber": "1234567",
+            "updatedOn": "2017-10-13T17:50:00.061Z",
+            "categoryCode": "ABC",
+            "dispositionCode": "28",
+            "createdOn": "2017-10-13T17:49:57.403Z",
+            "referenceId": {
+                "workOrderNumber": "1234567"
+            },
+            "orders": {
+                "href": "https://integration1.api.manheim.com/orders/consignment/ed43a13c-b03e-11e7-8d57-194ac982aaaa"
+            },
+            "offerings": {
+                "href": "https://integration1.api.manheim.com/offerings/consignment/ed43a13c-b03e-11e7-8d57-194ac982aaaa"
+            },
+            "notes": {
+                "href": "https://integration1.api.manheim.com/notes/consignment/ed43a13c-b03e-11e7-8d57-194ac982aaaa"
+            },
+            "transportations": {
+                "inbound": {
+                    "dropoff": {
+                        "href": "https://integration1.api.manheim.com/transportations/inbound/dropoff/consignment/ed43a13c-b03e-11e7-8d57-194ac982aaaa"
+                    }
+                }
+            }
+        },
+        {
+            "href": "https://integration1.api.manheim.com/consignments/id/c1b2c886-b03e-11e7-8673-41248a3caaaa",
+            "unit": {
+                "href": "https://integration1.api.manheim.com/units/id/c136774a-b03e-11e7-853b-790741f4aaaa"
+            },
+            "status": "ACTIVE",
+            "operatingLocation": {
+                "href": "https://integration1.api.manheim.com/locations/id/AAA"
+            },
+            "customerId": "1234567",
+            "manheimAccountNumber": "1234567",
+            "updatedOn": "2017-10-13T17:48:44.243Z",
+            "createdOn": "2017-10-13T17:48:44.243Z",
+            "categoryCode": "ABC",
+            "dispositionCode": "28",
+            "referenceId": {
+                "workOrderNumber": "1234567"
+            },
+            "orders": {
+                "href": "https://integration1.api.manheim.com/orders/consignment/c1b2c886-b03e-11e7-8673-41248a3caaaa"
+            },
+            "offerings": {
+                "href": "https://integration1.api.manheim.com/offerings/consignment/c1b2c886-b03e-11e7-8673-41248a3caaaa"
+            },
+            "notes": {
+                "href": "https://integration1.api.manheim.com/notes/consignment/c1b2c886-b03e-11e7-8673-41248a3caaaa"
+            },
+            "transportations": {
+                "inbound": {
+                    "dropoff": {
+                        "href": "https://integration1.api.manheim.com/transportations/inbound/dropoff/consignment/c1b2c886-b03e-11e7-8673-41248a3caaaa"
+                    }
+                }
+            }
+        }
+    ],
+    "limit": 2,
+    "next": {
+        "href": "https://integration1.api.manheim.com/consignments/mine?direction=next&id=c1b2c886-b03e-11e7-8673-41248a3caaaa&limit=2"
+    }
+}
